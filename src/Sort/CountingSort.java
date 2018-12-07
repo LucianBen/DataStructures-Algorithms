@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class CountingSort {
     // 计数排序，a 是数组，n 是数组大小。假设数组中存储的都是非负整数。
-    public static void countingSort(int[] a, int n) {
+    private static void countingSort(int[] a, int n) {
         if (n <= 1) return;
 
         // 查找数组中数据的范围
