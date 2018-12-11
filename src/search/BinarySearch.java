@@ -2,7 +2,7 @@ package search;
 
 public class BinarySearch {
     // 二分查找的递归实现
-    public static int bsearch(int[] a, int n, int val) {
+    private static int bsearch(int[] a, int n, int val) {
         return bsearchInternally(a, 0, n - 1, val);
     }
 
